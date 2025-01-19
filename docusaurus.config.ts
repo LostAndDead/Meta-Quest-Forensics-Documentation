@@ -59,9 +59,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'autoSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Extraction',
+          href: '/extraction/intro',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'autoSidebar',
+          position: 'left',
+          label: 'Analysis',
+          href: '/analysis/intro',
         }
       ],
     },
