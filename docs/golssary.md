@@ -2,6 +2,8 @@
 sidebar_position: 4
 title: Golssary
 description: "A list of terms and definitions used in this documentation."
+pagination_prev: null
+pagination_next: null
 ---
 
 # Glossary

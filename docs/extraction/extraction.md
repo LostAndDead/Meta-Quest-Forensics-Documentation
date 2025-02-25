@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Introduction
+title: Extraction
 description: "Everything you need to know how to extract data from a Meta Quest 3"
 slug: /extraction/intro
-pagination_label: "Extraction Intro"
+pagination_label: "Extraction"
 ---
 
 # Extraction Intro
