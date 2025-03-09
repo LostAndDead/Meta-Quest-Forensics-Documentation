@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::info
-Before you can procceed with this guide you must [Enable Developer Mode](/extraction/adb/developer_mode)
+Before you can proceed with this guide you must [Enable Developer Mode](/extraction/adb/developer_mode)
 :::
 
 ## What is ADB?
@@ -26,7 +26,7 @@ You can download the Android SDK Platform Tools from the [Android Developers web
 Once you have downloaded the Android SDK Platform Tools, you need to extract the contents of the ZIP file to a folder on your computer. You can then open a command prompt or terminal window and navigate to the folder where you extracted the tools. All the ADB commands you run will be done from this location.
 
 :::info
-If you encounter any issues with any of the commands bellow you may need to download the Oculus ADB Drivers from the [Meta Quest Developer Dashboard](https://developers.meta.com/horizon/downloads/package/oculus-adb-drivers/).
+If you encounter any issues with any of the commands below you may need to download the Oculus ADB Drivers from the [Meta Quest Developer Dashboard](https://developers.meta.com/horizon/downloads/package/oculus-adb-drivers/).
 :::
 
 ## Collecting The Data
@@ -45,7 +45,7 @@ There are many other tools available but this is the one we have chosen to cover
     3. Navigate to the folder where you extracted the Android SDK Platform Tools.
 
     :::info
-    Throughout the rest of this guide you must ensure the device stays awak and unlocked, if the device goes to sleep or locks you will need to start the process again. This can be achieved by either wearing the device or by covering the sensor on the device in the centre above the eye piece.
+    Throughout the rest of this guide, you must ensure the device stays awake and unlocked, if the device goes to sleep or locks you will need to start the process again. This can be achieved by either wearing the device or by covering the sensor on the device in the centre above the eyepiece.
     :::
 
     4. Run the following command to list the connected devices:
@@ -74,8 +74,8 @@ There are many other tools available but this is the one we have chosen to cover
 
       This command will create a backup of all the data on the device and save it to a file called `backup.ab` in the current directory.
       The flags included in the command are:
-      - `-apk`: Includes the applications APK files in the backup.
-      - `-shared`: Include the shared storage like SD card in the backup.
+      - `-apk`: Includes the application's APK files in the backup.
+      - `-shared`: Include the shared storage like an SD card in the backup.
       - `-all`: Back up all the installed applications data.
 
     6. On the headset you will need to allow the backup to proceed, this will be a prompt on the device screen. It will ask if you wish to set an optional password for the backup, you can choose to set one or not.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Basics of Cloud
 description: "Extracting data from a Meta Quest 3 using Cloud"
 ---

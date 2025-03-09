@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: MTP Extraction
 description: "How to extract data from a Meta Quest 3 using MTP"
 ---
@@ -14,7 +14,7 @@ Extracting data from a Meta Quest 3 using [MTP](/golssary#mtp) is a straightforw
 
 Before connecting the Meta Quest 3 to a computer for data extraction, it is essential to use a [write blocker](/golssary#write-blocker) to prevent any changes to the device's internal storage[^1]. 
 
-Many hardware and software solutions are available for write blocking, where possible use a hardware write blocker for the most reliable protection, however most software write blockers are sufficient for general use.
+Many hardware and software solutions are available for write blocking, where possible use a hardware write blocker for the most reliable protection. However, most software write blockers are sufficient for general use.
 
 In this guide, we will use a software [write blocker](/golssary#write-blocker)[^2] to prevent any changes to the Meta Quest 3's internal storage during the extraction process.
 
@@ -23,7 +23,7 @@ In this guide, we will use a software [write blocker](/golssary#write-blocker)[^
 
 ## Connecting the Meta Quest 3
 
-I dont think I need to explain how to plug in a USB cable, if you are having any problems make sure your cable is a data cable and not just a charging cable. If possible use the cable that came with the device.
+I don't think I need to explain how to plug in a USB cable, if you are having any problems make sure your cable is a data cable and not just a charging cable. If possible use the cable that came with the device.
 
 Once the Meta Quest 3 is connected to your computer you will get a notification on the device asking you to allow access to the device, you will need to allow this for the computer to access the device. Just simply click on the notification and this will allow the computer to access the device.
 
@@ -32,8 +32,8 @@ Once the Meta Quest 3 is connected to your computer you will get a notification 
 
 Once you have allowed access to the device, you can access the internal storage of the Meta Quest 3 using the file explorer on your computer. The device will appear as a removable storage device, and you can browse the files and folders on the device as you would with any other storage device.
 
-![The Meta Quest 3 showing as a storage device on the computer.](/img/docs/quest_on_pc.png)
-<figcaption>*The Meta Quest 3 showing as a storage device on the computer.*</figcaption>
+![The Meta Quest 3 shows as a storage device on the computer.](/img/docs/quest_on_pc.png)
+<figcaption>*The Meta Quest 3 shows as a storage device on the computer.*</figcaption>
 
 ## Forensicly Collecting This Data
 
@@ -48,11 +48,11 @@ There are many other tools available but this is the one we have chosen to cover
     To extract data using the file explorer, follow these steps:
 
     1. Open the file explorer on your computer.
-    2. Locate the Meta Quest 3 in the list of removable devices.
+    2. Locate the Meta Quest 3 in the list of removable device's.
     3. Browse to the devices internal storage and select all the folders.
     4. Copy the folders to a location on your computer
 
-    This is the best option available for hobbyists who dont have access to forensic tools as they often come with a high price tag.
+    This is the best option available for hobbyists who don't have access to forensic tools as they often come with a high price tag.
 
     :::warning
     This method of extraction is not considered forensically sound as it does not maintain the integrity of the data during the extraction process. There is no way to verify that the data has not been altered or tampered with during the extraction or when stored on the computer.

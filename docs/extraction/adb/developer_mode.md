@@ -7,12 +7,12 @@ description: "Guide to enabling Developer Mode on a Meta Quest 3 as is required 
 # Developer Mode
 
 :::warning
-Enabling Developer Mode by its self does not make your device more or less secure, however many of the options available in Developer Mode can be used to bypass security features and can severley effect the operation of your device. Do not mess with settings you do not understand or you may break your device.
+Enabling Developer Mode by itself does not make your device more or less secure, however many of the options available in Developer Mode can be used to bypass security features and can severely affect the operation of your device. Do not mess with settings you do not understand or you may break your device.
 :::
 
 ## What is Developer Mode?
 
-Developer mode is a setting on the Meta Quest 3 (And all other Android Based Devices) that allows you to enable advanced features and settings that are not available in the standard user interface. This mode is intended for developers and advanced users who want to access additional tools and options for testing and debugging applications on the device.
+Developer mode is a setting on the Meta Quest 3 (And all other Android-based Devices) that allows you to enable advanced features and settings that are not available in the standard user interface. This mode is intended for developers and advanced users who want to access additional tools and options for testing and debugging applications on the device.
 
 ## Why do I need Developer Mode?
 
