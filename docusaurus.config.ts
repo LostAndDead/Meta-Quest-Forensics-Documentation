@@ -6,19 +6,19 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'Meta Quest Forensic Documentation',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Dissecting the Meta Quest platform for Digital Forensics',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://quest-forensics.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'lostanddead', // Usually your GitHub org/user name.
+  projectName: 'quest-forensics', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,6 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
+          editUrl: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/blob/main/',
         },
         blog: false,
         theme: {
@@ -94,7 +95,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Quest Forensics',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -113,6 +114,12 @@ const config: Config = {
           position: 'left',
           label: 'Analysis',
           href: '/analysis/intro',
+        },
+        {
+          href: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         }
       ],
     },
@@ -133,16 +140,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
               label: 'Dyslexia Friendly Font',
               to: '/?docusaurus-data-dyslexic',
+            },
+            {
+              label: 'GitHub',
+              to: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/'
             }
           ],
         },
