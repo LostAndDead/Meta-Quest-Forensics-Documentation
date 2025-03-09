@@ -6,7 +6,7 @@ description: "Extracting data from a Meta Quest 3 using ADB"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Basics of ADB
+# Extracting Data from a Meta Quest 3 using ADB
 
 
 :::info
