@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: MTP Extraction
 description: "How to extract data from a Meta Quest 3 using MTP"
 ---
