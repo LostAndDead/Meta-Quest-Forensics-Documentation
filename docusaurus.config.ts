@@ -47,6 +47,49 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preload",
+        href: "static/fonts/NeuePlak-Regular.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossorigin: "anonymous",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preload",
+        href: "NeuePlak-ExtraBlack.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossorigin: "anonymous",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preload",
+        href: "static/fonts/NeuePlak-SemiBold.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossorigin: "anonymous",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preload",
+        href: "static/fonts/NeuePlakText-Regular.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossorigin: "anonymous",
+      },
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -79,6 +122,14 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
+            {
+              label: 'Extraction',
+              to: '/extraction/intro',
+            },
+            {
+              label: 'Analysis',
+              to: '/analysis/intro',
+            },
           ],
         },
         {
@@ -89,6 +140,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
+            {
+              label: 'Dyslexia Friendly Font',
+              to: '/?docusaurus-data-dyslexic',
+            }
           ],
         },
       ],

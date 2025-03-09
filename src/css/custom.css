@@ -6,27 +6,65 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1d65c1;
+  --ifm-color-primary-dark: #144a8e;
+  --ifm-color-primary-darker: #0c2f5b;
+  --ifm-color-primary-darkest: #0c2f5b;
+  --ifm-color-primary-light: #2179e7;
+  --ifm-color-primary-lighter: #2477ff;
+  --ifm-color-primary-lightest: #2477ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Neue Plak Text';
+  --ifm-heading-font-family: 'Neue Plak Bold';
+  --ifm-font-family-monospace: 'Fira Code';
+  --ifm-font-family-sidebar: 'Neue Plak Text';
+}
+
+html .theme-doc-sidebar-container{
+  font-family: 'Neue Plak Bold';
+}
+
+html[data-dyslexic] .theme-doc-sidebar-container{
+  font-family: 'Verdana';
+}
+
+@font-face {
+  font-family: 'Neue Plak';
+  src: url('/static/fonts/NeuePlak-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Plak Bold';
+  src: url('/static/fonts/NeuePlak-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Plak Black';
+  src: url('/static/fonts/NeuePlak-ExtraBlack.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Plak Text';
+  src: url('/static/fonts/NeuePlakText-Regular.woff2') format('woff2');
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #2477ff;
+  --ifm-color-primary-dark: #1d65c1;
+  --ifm-color-primary-darker: #144a8e;
+  --ifm-color-primary-darkest: #144a8e;
+  --ifm-color-primary-light: #2368ff;
+  --ifm-color-primary-lighter: #2259ff;
+  --ifm-color-primary-lightest: #2259ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-dyslexic] {
+  --ifm-font-family-base: 'Verdana';
+  --ifm-heading-font-family: 'Verdana';
+  --ifm-font-family-monospace: 'Fira Code';
 }
 
 .footnotes h2 {
