@@ -143,10 +143,6 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Dyslexia Friendly Font',
-              to: '/?docusaurus-data-dyslexic',
-            },
-            {
               label: 'GitHub',
               to: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/'
             }
