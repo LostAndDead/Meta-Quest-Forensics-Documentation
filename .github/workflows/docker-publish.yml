@@ -76,9 +76,9 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           build-args: |
-            ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-            ALGOLIA_SEARCH_API_KEY: ${{ secrets.ALGOLIA_SEARCH_API_KEY  }}
-            ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+            ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}
+            ALGOLIA_SEARCH_API_KEY=${{ secrets.ALGOLIA_SEARCH_API_KEY  }}
+            ALGOLIA_INDEX_NAME=${{ secrets.ALGOLIA_INDEX_NAME }}
           labels: ${{ steps.meta.outputs.labels }}
           target: serve
           cache-from: type=gha
