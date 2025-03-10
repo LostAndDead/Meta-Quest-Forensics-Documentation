@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Developer Mode
 description: "Guide to enabling Developer Mode on a Meta Quest 3 as is required for ADB"
+hide_table_of_contents: true
 ---
 
 # Developer Mode

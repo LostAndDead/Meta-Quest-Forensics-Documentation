@@ -1,7 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 title: Cloud Export
 description: "Extracting data from a Meta Quest 3 using Cloud"
+hide_table_of_contents: true
 ---
 
 # Downloading Cloud Export

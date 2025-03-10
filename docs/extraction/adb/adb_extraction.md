@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: Extracting with ADB
 description: "Extracting data from a Meta Quest 3 using ADB"
+hide_table_of_contents: true
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

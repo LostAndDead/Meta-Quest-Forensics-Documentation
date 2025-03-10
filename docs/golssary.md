@@ -22,6 +22,14 @@ Android Debug Bridge (ADB) is a command-line tool that allows developers to comm
 
 A write blocker is a hardware or software tool that prevents data from being written to a storage device. Write blockers are used in digital forensics to ensure that the data on a storage device remains unchanged during the acquisition process. By using a write blocker, investigators can maintain the integrity of the data and ensure that it is admissible in a court of law.
 
+## OBB File
+
+OBB (Opaque Binary Blob) files are used by Android applications to store additional data, such as textures, sounds, and other assets. OBB files are typically used for large applications that require additional resources beyond what can be stored in the APK file. These files are stored in a proprietary format and are encrypted to prevent tampering or unauthorized access.
+
+## Cube Maps
+
+Cube maps are images used to create reflections and lighting effects in 3D applications. Cube maps consist of six images that represent the six faces of a cube, with each face corresponding to a different direction in 3D space. Cube maps are commonly used in virtual reality applications to create realistic lighting and reflections in virtual environments.
+
 
 ### References
 [^1]: Google (2024) Android Debug Bridge (adb). Available at: https://developer.android.com/tools/adb (Accessed: 31 January 2025).

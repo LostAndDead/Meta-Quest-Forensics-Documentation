@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: MTP Extraction
 description: "How to extract data from a Meta Quest 3 using MTP"
+hide_table_of_contents: true
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
