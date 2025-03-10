@@ -1,8 +1,15 @@
 # syntax=docker/dockerfile:1
 
+ARG ALGOLIA_APP_ID
+ARG ALGOLIA_SEARCH_API_KEY
+ARG ALGOLIA_INDEX_NAME
+
 # Stage 1: Base image.
 ## Start with a base image containing NodeJS so we can build Docusaurus.
 FROM node:lts AS base
+ENV ALGOLIA_APP_ID=ALGOLIA_APP_ID
+ENV ALGOLIA_SEARCH_API_KEY=ALGOLIA_SEARCH_API_KEY
+ENV ALGOLIA_INDEX_NAME=ALGOLIA_INDEX_NAME
 ## Disable colour output from yarn to make logs easier to read.
 ENV FORCE_COLOR=0
 ## Enable corepack.
