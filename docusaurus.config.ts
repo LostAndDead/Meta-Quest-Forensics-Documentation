@@ -147,15 +147,48 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'autoSidebar',
           position: 'left',
-          label: 'Extraction',
-          href: '/extraction/intro',
+          label: 'Introduction',
+          to: '/intro',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'autoSidebar',
+          type: 'dropdown',
+          label: 'Extraction',
           position: 'left',
+          to: '/extraction/intro',
+          items: [
+            {
+              label: 'MTP',
+              to: '/extraction/mtp',
+            },
+            {
+              label: 'ADB',
+              to: '/extraction/adb/adb_extraction',
+            },
+            {
+              label: 'Cloud',
+              to: '/extraction/cloud',
+            },
+          ],
+        },
+        {
+          type: 'dropdown',
           label: 'Analysis',
-          href: '/analysis/intro',
+          position: 'left',
+          to: '/analysis/intro',
+          items: [
+            {
+              label: 'Artifacts',
+              to: '/analysis/artifacts',
+            },
+            {
+              label: 'List of Artifacts',
+              to: '/analysis/artifacts/artifacts_table',
+            },
+            {
+              label: 'Tools',
+              to: '/analysis/tools',
+            }
+          ],
         },
         {
           href: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/',
@@ -179,6 +212,10 @@ const config: Config = {
               label: 'Analysis',
               to: '/analysis/intro',
             },
+            {
+              label: 'Glossary',
+              to: '/glossary',
+            },
           ],
         },
         {
@@ -187,6 +224,10 @@ const config: Config = {
             {
               label: 'GitHub',
               to: 'https://github.com/LostAndDead/Meta-Quest-Forensics-Documentation/'
+            },
+            {
+              label: 'Contributing',
+              to: '/contributing',
             }
           ],
         },
