@@ -91,6 +91,16 @@ const config: Config = {
         crossorigin: "anonymous",
       },
     },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preload",
+        href: "static/fonts/FiraCode-Regular.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossorigin: "anonymous",
+      },
+    },
   ],
 
   themeConfig: {
