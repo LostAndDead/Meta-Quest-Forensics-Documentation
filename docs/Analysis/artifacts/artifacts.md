@@ -16,7 +16,7 @@ It is important to note that this list of artifacts is not exhaustive. The volum
 
 ## App Data
 
-When it comes to application specific data please bear in mind that I alone cant install and analysis every app on the Meta Quest 3. This means that the data that can be extracted from the device is limited to the apps that I have installed and used. I encourage you to install and analysis the apps that you are interested in and add them to this documentation. Please see the [contribution guide](/contribution) for more information on how to do this.
+When it comes to application specific data please bear in mind that I alone cant install and analysis every app on the Meta Quest 3. This means that the data that can be extracted from the device is limited to the apps that I have installed and used. I encourage you to install and analysis the apps that you are interested in and add them to this documentation. Please see the [contribution guide](/contributing) for more information on how to do this.
 
 ## Cloud Data
 
