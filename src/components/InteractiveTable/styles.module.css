@@ -1,0 +1,70 @@
+/* src/components/InteractiveTable/styles.module.css */
+.tableContainer {
+  margin: 20px 0;
+  font-family: var(--ifm-font-family-base);
+}
+
+.tableControls {
+  margin-bottom: 16px;
+}
+
+.filterInput {
+  padding: 8px 12px;
+  border: 1px solid var(--ifm-color-gray-300);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 14px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  border: 1px solid var(--ifm-color-gray-300);
+}
+
+.sortableHeader {
+  cursor: pointer;
+  position: relative;
+}
+
+html[data-theme='dark'] .sortableHeader:hover {
+  background-color: var(--ifm-color-gray-900);
+}
+
+.sortableHeader:hover {
+  background-color: var(--ifm-color-gray-200);
+}
+
+.sortIndicator {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.pagination button {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: var(--ifm-color-gray-300);
+  cursor: not-allowed;
+}

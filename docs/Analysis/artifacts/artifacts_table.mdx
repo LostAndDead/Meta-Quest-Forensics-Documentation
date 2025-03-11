@@ -1,0 +1,97 @@
+---
+sidebar_position: 1
+title: Master Artifacts Table
+description: "A list of artifacts that can be extracted from the data."
+hide_table_of_contents: true
+---
+import InteractiveTable from '@site/src/components/InteractiveTable';
+
+export const tableData = [
+    {
+        artifact: "Downloads",
+        description: "The default download location for files downloaded from the internet.",
+        example: "example.pdf",
+        location: "/Downloads",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Movies",
+        description: "The default location for videos recorded by 3rd party screen recording applications or other video files.",
+        example: "example.mp4",
+        location: "/Movies",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Thumbnails",
+        description: "Thumbnails of videos watched on the device using the built in video player.",
+        example: "27.jpg",
+        location: "/Movies/.thumbnails",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Screenshots",
+        description: "All screenshots taken on the device.",
+        example: "com.oculus.vrshell-20220101-120000.jpg",
+        location: "/Oculus/Screenshots",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Recordings",
+        description: "All recordings taken on the device.",
+        example: "com.oculus.vrshell-20220101-120000-0.mp4",
+        location: "/Oculus/VideoShots",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Cube Maps",
+        description: "Cube Maps used by the Oculus Store application when looking at apps with a 3D preview.",
+        example: "example.jpg",
+        location: "/Android/Media/com.oculus.store/cubemaps",
+        source: "MTP"
+    },  
+    {   
+        artifact: "OBB Files",
+        description: "Application OBB files used by applications to store additional data such as textures, sounds, and other assets.",
+        example: "example.obb",
+        location: "/Android/obb",
+        source: "MTP"
+    },  
+    {   
+        artifact: "Horizon User Settings",
+        description: "The users settings for the Horizon app.",
+        example: "settings-socialvr.xml",
+        location: "/Android/Data/com.facebook.horizon/Horizon",
+        source: "Applications"
+    },  
+    {   
+        artifact: "Horizon Cached Assets",
+        description: "The Horizon app caches its assets in many different locations.",
+        example: "example.jpg",
+        location: "/Android/Data/com.facebook.horizon/cache",
+        source: "Applications"
+    },  
+    {   
+        artifact: "BoxVR Cached Assets",
+        description: "The BoxVR app caches its assets in the `/Android/Data/com.fitxr.boxvr/files/cache` directory.",
+        example: "example.fitxr",
+        location: "/Android/Data/com.fitxr.boxvr/files/cache",
+        source: "Applications"
+    },  
+    {   
+        artifact: "Toybox Logs",
+        description: "Toybox stores logs of which demos the user has played.",
+        example: "FirstEncounters_Logs_25-01-17_14-12-29",
+        location: "/Android/Data/com.meta.curio.toybox/files/",
+        source: "Applications"
+    }
+];
+
+export const tableColumns = [
+    { key: "artifact", label: "Artifact" },
+    { key: "description", label: "Description" },
+    { key: "example", label: "Example" },
+    { key: "location", label: "Location" },
+    { key: "source", label: "Source" }
+];
+
+<InteractiveTable data={tableData} columns={tableColumns} />
