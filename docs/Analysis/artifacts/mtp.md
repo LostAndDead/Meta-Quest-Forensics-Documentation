@@ -40,8 +40,8 @@ Where `app.id` is the ID of the application that was open when the recording sta
 
 ## Oculus Store Cube Maps
 
-[Cube Maps](/golssary#cube-maps) used by the Oculus Store application when looking at apps with a 3D preview can be found in `/Android/Media/com.oculus.store/cubemaps`. The file names appear to be a UUID representing the app that the cube map is for.
+[Cube Maps](/glossary#cube-maps) used by the Oculus Store application when looking at apps with a 3D preview can be found in `/Android/Media/com.oculus.store/cubemaps`. The file names appear to be a UUID representing the app that the cube map is for.
 
 ## Application OBB Files
 
-Application [OBB](/golssary#obb-file) files can be found in the `/Android/obb` folder. Not every application will have an OBB file, but those that do will store them in this folder under their package name. For example, the OBB file for the `games.b4t.epicrollercoasters.oculus` application would be stored in `/Android/obb/games.b4t.epicrollercoasters.oculus`.
+Application [OBB](/glossary#obb-file) files can be found in the `/Android/obb` folder. Not every application will have an OBB file, but those that do will store them in this folder under their package name. For example, the OBB file for the `games.b4t.epicrollercoasters.oculus` application would be stored in `/Android/obb/games.b4t.epicrollercoasters.oculus`.

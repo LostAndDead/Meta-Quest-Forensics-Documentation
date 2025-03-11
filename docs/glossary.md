@@ -24,11 +24,15 @@ A write blocker is a hardware or software tool that prevents data from being wri
 
 ## OBB File
 
-OBB (Opaque Binary Blob) files are used by Android applications to store additional data, such as textures, sounds, and other assets. OBB files are typically used for large applications that require additional resources beyond what can be stored in the APK file. These files are stored in a proprietary format and are encrypted to prevent tampering or unauthorized access.
+OBB (Opaque Binary Blob) files are used by Android applications to store additional data, such as textures, sounds, and other assets. OBB files are typically used for large applications that require additional resources beyond what can be stored in the APK file. These files are stored in a proprietary format and are encrypted to prevent tampering or unauthorised access.
 
 ## Cube Maps
 
 Cube maps are images used to create reflections and lighting effects in 3D applications. Cube maps consist of six images that represent the six faces of a cube, with each face corresponding to a different direction in 3D space. Cube maps are commonly used in virtual reality applications to create realistic lighting and reflections in virtual environments.
+
+## Contemporaneous Notes
+
+Contemporaneous notes are detailed, accurate, and timely records of events, observations, and actions taken during an investigation. Contemporaneous notes are essential in digital forensics to document the acquisition and analysis process, including the tools used, the data examined and any actions taken. Contemporaneous notes provide a clear record of the investigation and can be used to support the findings in court.
 
 
 ### References

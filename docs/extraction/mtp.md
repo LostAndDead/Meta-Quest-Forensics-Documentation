@@ -9,15 +9,15 @@ import TabItem from '@theme/TabItem';
 
 # Extracting Data from a Meta Quest 3 using MTP
 
-Extracting data from a Meta Quest 3 using [MTP](/golssary#mtp) is a straightforward process that allows you to access the device's internal storage and transfer files to and from the device. This method is useful for extracting data from the Quest 3 without the need for additional software or tools, making it accessible to a wide range of users.
+Extracting data from a Meta Quest 3 using [MTP](/glossary#mtp) is a straightforward process that allows you to access the device's internal storage and transfer files to and from the device. This method is useful for extracting data from the Quest 3 without the need for expensive software or complex tools, making it accessible to a wide range of users.
 
 ## Write blocker
 
-Before connecting the Meta Quest 3 to a computer for data extraction, it is essential to use a [write blocker](/golssary#write-blocker) to prevent any changes to the device's internal storage[^1]. 
+Before connecting the Meta Quest 3 to a computer for data extraction, it is essential to use a [write blocker](/glossary#write-blocker) to prevent any changes to the device's internal storage[^1]. 
 
-Many hardware and software solutions are available for write blocking, where possible use a hardware write blocker for the most reliable protection. However, most software write blockers are sufficient for general use.
+Many hardware and software solutions are available for write blocking. Where possible, use a hardware write blocker for the most reliable protection. However, most software write blockers are sufficient for general use.
 
-In this guide, we will use a software [write blocker](/golssary#write-blocker)[^2] to prevent any changes to the Meta Quest 3's internal storage during the extraction process.
+In this guide, we will use a software [write blocker](/glossary#write-blocker)[^2] to prevent any changes to the Meta Quest 3's internal storage during the extraction process.
 
 ![A free software write blocker set to block write access to all removable devices.](/img/docs/ratool.png)
 <figcaption>*A free software write blocker set to block write access to all removable devices.*</figcaption>
@@ -38,7 +38,7 @@ Once you have allowed access to the device, you can access the internal storage 
 
 ## Forensicly Collecting This Data
 
-As this guide is aimed at hobbyists as well as professionals, We will cover how to collect this data using 2 different methods. The first method will be using just the file explorer and the second method will be using a forensic tool often used in the industry called Magnet AXIOM[^3].
+As this guide is aimed at hobbyists as well as professionals, we will cover how to collect this data using 2 different methods. The first method will be using just the file explorer and the second method will be using a forensic tool often used in the industry called Magnet AXIOM[^3].
 
 There are many other tools available but this is the one we have chosen to cover in this guide as its one of the most popular tools in the industry and one we have access to.
 
@@ -49,9 +49,9 @@ There are many other tools available but this is the one we have chosen to cover
     To extract data using the file explorer, follow these steps:
 
     1. Open the file explorer on your computer.
-    2. Locate the Meta Quest 3 in the list of removable device's.
+    2. Locate the Meta Quest 3 in the list of removable devices.
     3. Browse to the devices internal storage and select all the folders.
-    4. Copy the folders to a location on your computer
+    4. Copy the folders to a location on your computer.
 
     This is the best option available for hobbyists who don't have access to forensic tools as they often come with a high price tag.
 
@@ -60,7 +60,7 @@ There are many other tools available but this is the one we have chosen to cover
     :::
   </TabItem>
   <TabItem value="axiom" label="Magnet AXIOM">
-    If you have access to a forensic tool such as Magnet AXIOM and are familiar with it we doubt you need this guide. However, if you are new to the tool or just want to see how it works with the Meta Quest 3, follow these steps:
+    If you have access to a forensic tool such as Magnet AXIOM and are familiar with it, we doubt you need this guide. However, if you are new to the tool or just want to see how it works with the Meta Quest 3, follow these steps:
 
     1. Open Magnet AXIOM Process and create a new case.
     2. Select the option to add a new evidence source.
@@ -83,6 +83,6 @@ There are many other tools available but this is the one we have chosen to cover
 And that's it, you have successfully extracted data from a Meta Quest 3 using MTP. This method is suitable for a wide range of users and provides a simple and accessible way to access the device's internal storage. Whether you are a hobbyist, researcher, or professional investigator, extracting data using MTP is a valuable tool in your forensic toolkit.
 
 ### References
-[^1]: Association of Cheif Police Officers (2011). ACPO Good Practice Guide for Computer-Based Electronic Evidence. Available at: https://npcc.police.uk/documents/crime/2014/Revised%20Good%20Practice%20Guide%20for%20Digital%20Evidence_Vers%205_Oct%202011_Website.pdf (Accessed: 31 January 2025).
+[^1]: Association of Chief Police Officers (2011). ACPO Good Practice Guide for Computer-Based Electronic Evidence. Available at: https://npcc.police.uk/documents/crime/2014/Revised%20Good%20Practice%20Guide%20for%20Digital%20Evidence_Vers%205_Oct%202011_Website.pdf (Accessed: 31 January 2025).
 [^2]: Sordum Team (2020) Ratool v1.4 (Removable Access tool). Available at: https://www.sordum.org/8104/ratool-v1-4-removable-access-tool/ (Accessed: 31 January 2025).
 [^3]: Magnet (2025) Magnet AXIOM. Available at: https://www.magnetforensics.com/products/magnet-axiom/ (Accessed: 31 January 2025).

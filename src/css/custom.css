@@ -40,6 +40,11 @@
   src: url('/static/fonts/NeuePlakText-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/static/fonts/FiraCode-Regular.woff2') format('woff2');
+}
+
 .header-github-link::before {
   content: '';
   width: 24px;
