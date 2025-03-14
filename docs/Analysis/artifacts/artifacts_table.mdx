@@ -14,76 +14,272 @@ export const tableData = [
         example: "example.pdf",
         location: "/Downloads",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Movies",
-        description: "The default location for videos recorded by 3rd party screen recording applications or other video files.",
+        description: "The default location for videos recorded by third-party screen recording applications or other video files.",
         example: "example.mp4",
         location: "/Movies",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Thumbnails",
-        description: "Thumbnails of videos watched on the device using the built in video player.",
+        description: "Thumbnails of videos watched on the device using the built-in video player.",
         example: "27.jpg",
         location: "/Movies/.thumbnails",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Screenshots",
         description: "All screenshots taken on the device.",
         example: "com.oculus.vrshell-20220101-120000.jpg",
         location: "/Oculus/Screenshots",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Recordings",
         description: "All recordings taken on the device.",
         example: "com.oculus.vrshell-20220101-120000-0.mp4",
         location: "/Oculus/VideoShots",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Cube Maps",
         description: "Cube Maps used by the Oculus Store application when looking at apps with a 3D preview.",
         example: "example.jpg",
         location: "/Android/Media/com.oculus.store/cubemaps",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "OBB Files",
         description: "Application OBB files used by applications to store additional data such as textures, sounds, and other assets.",
         example: "example.obb",
         location: "/Android/obb",
         source: "MTP"
-    },  
-    {   
+    },
+    {
         artifact: "Horizon User Settings",
         description: "The users settings for the Horizon app.",
         example: "settings-socialvr.xml",
         location: "/Android/Data/com.facebook.horizon/Horizon",
         source: "Applications"
-    },  
-    {   
+    },
+    {
         artifact: "Horizon Cached Assets",
         description: "The Horizon app caches its assets in many different locations.",
         example: "example.jpg",
         location: "/Android/Data/com.facebook.horizon/cache",
         source: "Applications"
-    },  
-    {   
+    },
+    {
         artifact: "BoxVR Cached Assets",
         description: "The BoxVR app caches its assets in the `/Android/Data/com.fitxr.boxvr/files/cache` directory.",
         example: "example.fitxr",
         location: "/Android/Data/com.fitxr.boxvr/files/cache",
         source: "Applications"
-    },  
-    {   
+    },
+    {
         artifact: "Toybox Logs",
         description: "Toybox stores logs of which demos the user has played.",
         example: "FirstEncounters_Logs_25-01-17_14-12-29",
         location: "/Android/Data/com.meta.curio.toybox/files/",
         source: "Applications"
+    },
+    {
+        "artifact": "Emails",
+        "description": "Details relating to emails that were sent to the user regarding their Meta account.",
+        "example": "An email confirmation or a password reset email.",
+        "location": "/other_information_about_you/emails_we_sent_to_your_oculus_account_email_address.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Current and Past Usernames",
+        "description": "Information about the current and past usernames of the user.",
+        "example": "old_username, current_username",
+        "location": "/other_information_about_you/current_and_past_usernames.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Current and Past Profile Photos",
+        "description": "A list of all the profile photos that the user has used.",
+        "example": "profile_pic.jpg",
+        "location": "/other_information_about_you/current_and_past_profile_photos.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Profile Details",
+        "description": "The user's profile details.",
+        "example": "Username, display name",
+        "location": "/meta_horizon_profile/profile_details.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Social Connections",
+        "description": "Information about the user's social connections. Contains lists of followers and followees.",
+        "example": "Friend's username",
+        "location": "/social_connections/connections_details.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Devices",
+        "description": "The Meta devices that have been used to access the Meta Cloud.",
+        "example": "Meta Quest 2",
+        "location": "/device_information/devices.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Online Status History",
+        "description": "Details relating to the online status on the user's devices.",
+        "example": "Timestamp of online status check",
+        "location": "/device_information/online_status_history.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "VR Device Sync Data",
+        "description": "Information regarding the online sync status of the user's VR devices.",
+        "example": "List of installed apps on a VR device",
+        "location": "/device_information/vr_device_sync_data.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Active Sessions",
+        "description": "A list of IP addresses that have active sessions for the user account.",
+        "example": "192.168.1.1",
+        "location": "/security_and_login_information/active_sessions.json",
+        "source": "Meta Cloud"
+    },
+        {
+        "artifact": "Login History",
+        "description": "A list of all the logins to the Meta Account.",
+        "example": "Timestamp of login, IP address",
+        "location": "/security_and_login_information/login_history.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Location History",
+        "description": "A history of locations where the user has connected to the Meta Account from.",
+        "example": "Latitude, Longitude",
+        "location": "/security_and_login_information/location_history.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Achievements",
+        "description": "A list of achievements that the user has earned.",
+        "example": "Achievement name, description",
+        "location": "/your_apps_and_content/achievements.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Recently Viewed Items",
+        "description": "A list of applications the user has recently viewed.",
+        "example": "App name",
+        "location": "/your_apps_and_content/recently_viewed_items.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Apps",
+        "description": "A list of all the applications the user has ever interacted with.",
+        "example": "App name",
+        "location": "/your_apps_and_content/apps.json",
+        "source": "Meta Cloud"
+    },
+        {
+        "artifact": "Chats",
+        "description": "A list of all chat threads that the user has been involved in. Contains messages and sender information.",
+        "example": "Message text, sender name",
+        "location": "/your_apps_and_content/inbox/userid_xxxxx.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "App Email Notification Settings",
+        "description": "Settings for email notifications from Meta apps.",
+        "example": "Setting for email notifications",
+        "location": "/your_settings_and_preferences/app_email_notification_settings.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Apps Notification Preferences",
+        "description": "Settings for notifications from apps on your device (headset).",
+        "example": "Notification preferences for headset apps",
+        "location": "/your_settings_and_preferences/apps_notification_preferences.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Your Notification Preferences",
+        "description": "Settings for notifications from Meta.",
+        "example": "Notification preferences from Meta",
+        "location": "/your_settings_and_preferences/notification_settings/your_notification_preferences.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Privacy and Social Settings Review Count",
+        "description": "Information on how often you have reviewed your privacy and social settings.",
+        "example": "Number of times settings reviewed.",
+        "location": "/your_settings_and_preferences/your_count_for_how_many_you_times_you've_entered_privacy_and_social_settings_review.json",
+        "source": "Meta Cloud"
+    },
+        {
+        "artifact": "Privacy and Social Settings Reminder Notification Count",
+        "description": "Trackers for how many times you have been reminded to review your privacy and social settings.",
+        "example": "Number of reminder notifications.",
+        "location": "/your_settings_and_preferences/your_reminder_notification_count_for_privacy_and_social_settings_review.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Privacy and Social Settings Follower-Based Notification Count",
+        "description": "Trackers for how many times you have been reminded to review your settings from your follower count.",
+        "example": "Number of follower-based notifications.",
+        "location": "/your_settings_and_preferences/your_follower-based_notification_count_for_privacy_and_social_settings_review.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Settings Details",
+        "description": "A few settings that the user has set.",
+        "example": "Private profile status (on/off)",
+        "location": "/your_settings_and_preferences/settings_details.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Developer Notification Preferences",
+        "description": "Notification settings for developers.",
+        "example": "First Access forum new announcements (on/off)",
+        "location": "/your_settings_and_preferences/developer_notification_preferences.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Worlds Visited",
+        "description": "A list of all the worlds the user has visited on the Horizon app, including descriptions, achievements, and progress.",
+        "example": "World name, achievement status, progress value",
+        "location": "/meta_horizon_worlds/worlds_visited.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Worlds Saved",
+        "description": "Data for worlds that the user has saved on the Horizon app, including a 'Saved On' timestamp.",
+        "example": "World name, saved timestamp",
+        "location": "/meta_horizon_worlds/worlds_saved.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Worlds Progress",
+        "description": "Information on worlds where the user has made progress within the Horizon app.",
+        "example": "World name, progress value",
+        "location": "/meta_horizon_worlds/worlds_progress.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Worlds Created",
+        "description": "Basic information about worlds created by the user within the Horizon app.",
+        "example": "World name, accepted roles",
+        "location": "/meta_horizon_worlds/worlds_created.json",
+        "source": "Meta Cloud"
+    },
+    {
+        "artifact": "Worlds Privacy Settings",
+        "description": "Privacy settings for the user while on the Horizon app, including active status and location settings.",
+        "example": "Show active status (on/off), show location (on/off)",
+        "location": "/meta_horizon_worlds/worlds_privacy_settings.json",
+        "source": "Meta Cloud"
     }
 ];
 
@@ -95,4 +291,7 @@ export const tableColumns = [
     { key: "source", label: "Source" }
 ];
 
-<InteractiveTable data={tableData} columns={tableColumns} />
+<InteractiveTable data={tableData} columns={tableColumns} />import InteractiveTable from '@site/src/components/InteractiveTable';
+import InteractiveTable from '@site/src/components/InteractiveTable';
+import InteractiveTable from '@site/src/components/InteractiveTable';
+

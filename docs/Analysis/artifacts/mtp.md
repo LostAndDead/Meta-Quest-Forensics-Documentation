@@ -12,6 +12,8 @@ When analysing data extracted from the Meta Quest 3 using MTP, you can expect to
 - Documents such as PDFs, Word documents, and text files.
 - Application OBB files.
 
+Application specific artifacts that can be extracted from the Meta Quest 3 can be found in the [Applications](/analysis/artifacts/applications) section.
+
 ## Downloads
 
 The devices download folder can be found at `/Downloads`. This folder contains all the files that have been downloaded to the device.

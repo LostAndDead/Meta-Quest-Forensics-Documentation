@@ -8,9 +8,9 @@ hide_table_of_contents: true
 <details>
     <summary>com.facebook.horizon</summary>
 
-    Source: [MTP](/extraction/mtp)
-
     The Horizon app is the social hub for the Meta Quest 3. It allows users to connect with friends, join events, and discover new experiences. The app is  designed to be a safe and welcoming space for users to interact with each other and explore the Meta Quest 3 ecosystem.
+
+    ## Source: [MTP](/extraction/mtp)
 
     ### User Settings
 
@@ -29,6 +29,71 @@ hide_table_of_contents: true
     Only the `cache` directory contains files that can be opened and viewed. The other directories contain Unity asset files that require Unity to open.
 
     These caches assets can be used to determine what worlds the user has visited and what assets they loaded. From my own analysis I was able to find assets from various worlds I had visited and assets from the Horizon app its self.
+
+    ## Source: [Cloud](/extraction/cloud)
+
+    ### Worlds Visited
+
+    JSON Path: `/meta_horizon_worlds/worlds_visited.json`
+
+    HTML Location `Meta Horizon > Meta Horizon Worlds > Worlds Visited`
+
+    Contains a list of all the worlds the user has visited on the Horizon app. Each entry contains some or all of the following information:
+
+    - Description (String)
+    - Name (String)
+    - Achievements (Array)
+      - Status (String)
+      - LastUpdated (String)
+    - Progress (Array)
+      - Value (String)
+      - Creaton Time (String)
+      - Variable Name (String)
+    
+    The JSON version also contains media files that are associated with the worlds visited. This seems to just be the world thumbnail.
+
+    ### Worlds Saved
+
+    JSON Path: `/meta_horizon_worlds/worlds_saved.json`
+
+    HTML Location `Meta Horizon > Meta Horizon Worlds > Worlds Saved`
+
+    These files contain the same data as the worlds visited files but for worlds that the user has saved, it also adds a `Saved On` timestamp. It is to be noted that these worlds aren't necessarily saved by the user, they could be automatically saved by the app or suggestions on the home screen.
+
+    ### Worlds Progress
+
+    JSON Path: `/meta_horizon_worlds/worlds_progress.json`
+
+    HTML Location `Meta Horizon > Meta Horizon Worlds > Worlds Progress`
+
+    Contains the same information as the worlds visited files but only for worlds that the user has made progress in.
+
+    ### Worlds Created
+
+    JSON Path: `/meta_horizon_worlds/worlds_created.json`
+
+    HTML Location `Meta Horizon > Meta Horizon Worlds > Worlds Created`
+
+    Contains basic information about worlds that the user has created. This includes:
+
+    - Name (String)
+    - Accepted Roles (String)
+      - Accepted Roles is always "World Owner" in my testing.
+    - Invitation (String)
+      - Seems to be the same as the Name field in my testing.
+    - Updated Time (String)
+
+    ### Worlds Privacy Settings
+    
+    JSON Path: `/meta_horizon_worlds/worlds_privacy_settings.json`
+
+    HTML Location `Meta Horizon > Meta Horizon Worlds > Worlds Privacy Settings`
+
+    Contains the privacy settings for the user while on the Horizon app. The settings are:
+
+    - Show Active Status Setting (On/Off)
+    - Show Location Setting (On/Off)
+    - Updated Time (String)
 </details>
 
 <details>
