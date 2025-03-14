@@ -178,7 +178,7 @@ const config: Config = {
           items: [
             {
               label: 'Artifacts',
-              to: '/analysis/artifacts',
+              to: '/analysis/artifacts/',
             },
             {
               label: 'List of Artifacts',
