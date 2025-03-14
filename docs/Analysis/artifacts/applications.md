@@ -3,6 +3,7 @@ sidebar_position: 6
 title: Applications
 description: "Application specific artifacts that can be extracted from the Meta Quest 3."
 hide_table_of_contents: true
+slug: /analysis/artifacts/applications
 ---
 
 <details>
