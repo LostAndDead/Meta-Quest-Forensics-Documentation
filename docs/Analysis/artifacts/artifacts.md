@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Artifacts
 description: "An overview of the artifacts that can be extracted from the data."
 hide_table_of_contents: true
+slug: /analysis/artifacts/
 ---
 
 ## What are Artifacts?
