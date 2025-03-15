@@ -15,7 +15,7 @@ slug: /analysis/artifacts/applications
 
     ### User Settings
 
-    The users settings for the Horizon app can be found in the `/Android/Data/com.facebook.horizon/Horizon` directory. The file `settings-socialvr.xml` contains    the user's settings for the app.
+    The users settings for the Horizon app can be found in the `/Android/Data/com.facebook.horizon/Horizon` directory. The file `settings-socialvr.xml` contains the user's settings for the app.
 
     ### Cached Assets
 

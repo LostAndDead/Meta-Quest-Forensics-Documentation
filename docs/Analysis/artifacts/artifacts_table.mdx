@@ -280,6 +280,55 @@ export const tableData = [
         "example": "Show active status (on/off), show location (on/off)",
         "location": "/meta_horizon_worlds/worlds_privacy_settings.json",
         "source": "Meta Cloud"
+    },
+        {
+        "artifact": "Platform Shared Prefs",
+        "description": "Connection secrets, keys, and device IDs used by applications to authenticate with the Android Shared Preferences system.",
+        "example": "OVR_platform_shared_prefs_XXXXXXXXXXXXX.xml, credentials, device ID",
+        "location": "sp/OVR_platform_shared_prefs_XXXXXXXXXXXXX.xml",
+        "source": "ADB"
+    },
+    {
+        "artifact": "Notifications",
+        "description": "A list of all notifications displayed on the device, including package name, icon, and seen status.",
+        "example": "notification.txt, onPkg: com.example.app, seen: true",
+        "location": "dumpsys/notification.txt",
+        "source": "ADB"
+    },
+    {
+        "artifact": "OVR Remote Service",
+        "description": "Information about connected devices, likely controllers, including device ID, type, firmware, battery, and tracking metrics.",
+        "example": "OVRRemoteService, Device ID, Battery Level, Tracking Session Metrics",
+        "location": "dumpsys/OVRRemoteService",
+        "source": "ADB"
+    },  
+    {   
+        "artifact": "Sensor Service",
+        "description": "Data about the device's sensors, including Double Tap and IMU sensors, with calibration status and accelerometer/gyroscope data.",
+        "example": "sensorservice.txt, IMU data, Double Tap sensor status",
+        "location": "dumpsys/sensorservice.txt",
+        "source": "ADB"
+    },  
+    {   
+        "artifact": "Settings",
+        "description": "Oculus-related system settings, including Guardian, telemetry, and pass-through settings.",
+        "example": "settings.txt, Guardian settings, Telemetry settings",
+        "location": "dumpsys/settings.txt",
+        "source": "ADB"
+    },  
+    {   
+        "artifact": "Tracking Environment",
+        "description": "SLAM, odometry, submaps, anchors, translation, and rotation data, showing how the device tracks its environment.",
+        "example": "TrackingEnvironment.txt, SLAM data, Translation data",
+        "location": "dumpsys/TrackingEnvironment.txt",
+        "source": "ADB"
+    },  
+    {   
+        "artifact": "Tracking Service",
+        "description": "Detailed information about the tracking service, including device position and orientation.",
+        "example": "TrackingService.txt, position data, orientation data",
+        "location": "dumpsys/TrackingService.txt",
+        "source": "ADB"
     }
 ];
 

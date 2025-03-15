@@ -5,6 +5,8 @@ description: "A list of the different system apps that can be found on the Meta 
 hide_table_of_contents: true
 ---
 
+Defines some of the relevant system apps that can be found on the Meta Quest 3 and what they do.
+
 ### com.oculus.vrshell
 
 The Oculus Shell is the main interface for the Meta Quest 3. It is responsible for launching applications, managing the home environment, and handling system level tasks such as notifications and updates. This app is essentially your home environment and is the first thing you see when you put on the headset.

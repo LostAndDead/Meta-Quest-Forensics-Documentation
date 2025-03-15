@@ -52,7 +52,7 @@ html[data-theme='dark'] .sortableHeader:hover {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
-  gap: 16px;
+  gap: 6px;
 }
 
 .pagination button {
@@ -67,4 +67,8 @@ html[data-theme='dark'] .sortableHeader:hover {
 .pagination button:disabled {
   background-color: var(--ifm-color-gray-300);
   cursor: not-allowed;
+}
+
+html[data-theme='dark'] .pagination button:disabled {
+  background-color: var(--ifm-color-gray-700);
 }
