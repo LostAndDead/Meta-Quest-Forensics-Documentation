@@ -6,6 +6,7 @@ import clsx from 'clsx';
 import type { ReactNode } from 'react';
 
 import styles from './index.module.css';
+import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -23,7 +24,8 @@ function HomepageHeader() {
             Get Started
           </Link>
         </div>
-        <p>This front page as well as the whole docs are very much WIP</p>
+        <br />
+        <p>This documentation provides a comprehensive guide to digital forensics of Meta Quest headsets. It covers the extraction of data from the device and the analysis of the extracted data.</p>
       </div>
     </header>
   );
@@ -33,11 +35,11 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
-        
+        <HomepageFeatures />
       </main>
     </Layout>
   );

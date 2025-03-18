@@ -7,7 +7,7 @@ dotenv.config();  // Load environment variables from .env file
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Meta Quest Forensic Documentation',
+  title: 'Quest Forensics Documentation',
   tagline: 'Dissecting the Meta Quest platform for Digital Forensics',
   favicon: 'img/favicon.ico',
 
@@ -140,7 +140,7 @@ const config: Config = {
       title: 'Quest Forensics',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
