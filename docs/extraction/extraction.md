@@ -6,12 +6,14 @@ pagination_label: "Extraction"
 hide_table_of_contents: true
 ---
 
+<img src="/img/undraw_data-extraction_a558.svg" width="300" />
+# Extraction Introduction
+
+
 :::warning Legal Consent
 If you are using a device that is not yours, you must ensure you have the correct permissions to access the device. This could be in the form of a warrant (in cases of law enforcement) or consent from the device owner. If you do not have the correct permissions to access the device, you could be breaking your local equivalent of the [Computer Misuse Act](https://www.legislation.gov.uk/ukpga/1990/18/contents) (If outside the United Kingdom).
 :::
 
-
-# Extraction Introduction
 
 This section of the guide will cover the various methods you can use to extract data from a Meta Quest 3. The methods covered in this guide are:
 - [MTP](/extraction/mtp)

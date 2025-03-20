@@ -5,8 +5,8 @@ slug: /analysis/intro
 pagination_label: "Analysis Intro"
 hide_table_of_contents: true
 ---
-
-# Analysis Intro
+<img src="/img/undraw_private-data_7v0o.svg" width="300" />
+# Analysis Introduction
 
 This is the introduction to the analysis section. Here you will find everything you need to know about analysing the extracted data.
 

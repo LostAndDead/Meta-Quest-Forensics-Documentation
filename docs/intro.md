@@ -4,6 +4,7 @@ title: Introduction
 description: "Introduction to the documentation"
 ---
 
+<img src="/img/undraw_progress-indicator_c14b.svg" width="300" />
 # Introduction and Guide
 
 :::info
