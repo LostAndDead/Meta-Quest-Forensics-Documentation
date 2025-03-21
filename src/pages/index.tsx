@@ -5,8 +5,8 @@ import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import type { ReactNode } from 'react';
 
-import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -25,7 +25,7 @@ function HomepageHeader() {
           </Link>
         </div>
         <br />
-        <p>This documentation provides a comprehensive guide to digital forensics of Meta Quest headsets. It covers the extraction of data from the device and the analysis of the extracted data.</p>
+        <p>This documentation provides a comprehensive guide to the digital forensics of Meta Quest headsets. It covers the extraction of data from the device and the analysis of the extracted data.</p>
       </div>
     </header>
   );

@@ -18,4 +18,4 @@ This section is divided into the following sub-sections:
 - [Artifacts](/analysis/artifacts) - A list of artifacts that can be extracted from the data.
 
 Each of these sub-sections will provide you with the information you need to get started with analysing the extracted data.
-If you are looking for a specific artifacts, you can use the search bar at the top of the page to find it or check out the master list of artifacts [here](/analysis/artifacts).
+If you are looking for specific artifacts, you can use the search bar at the top of the page to find them or check out the master list of artifacts [here](/analysis/artifacts).

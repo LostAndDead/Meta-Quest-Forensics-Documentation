@@ -50,7 +50,7 @@ There are many other tools available but this is the one we have chosen to cover
 
     1. Open the file explorer on your computer.
     2. Locate the Meta Quest 3 in the list of removable devices.
-    3. Browse to the devices internal storage and select all the folders.
+    3. Browse to the device's internal storage and select all the folders.
     4. Copy the folders to a location on your computer.
 
     This is the best option available for hobbyists who don't have access to forensic tools as they often come with a high price tag.

@@ -12,7 +12,7 @@ Artifacts are pieces of data that can be extracted from the Meta Quest 3. These 
 
 ## Restricted Data
 
-It is important to note that this list of artifacts is not exhaustive. The volume of data that can be extracted from the Meta Quest 3 is still heavily restricted as there is no know method to root the device. This means that the data that can be extracted is limited to what can be accessed without root access. As such, this list is not exhaustive and there is not a lot of data that can be extracted from the device at this time. This is a limitation we have to work with until a method to root the device is discovered.
+It is important to note that this list of artifacts is not exhaustive. The volume of data that can be extracted from the Meta Quest 3 is still heavily restricted as there is no known method to root the device. This means that the data that can be extracted is limited to what can be accessed without root access. As such, this list is not exhaustive and there is not a lot of data that can be extracted from the device at this time. This is a limitation we have to work with until a method to root the device is discovered.
 
 ## App Data
 

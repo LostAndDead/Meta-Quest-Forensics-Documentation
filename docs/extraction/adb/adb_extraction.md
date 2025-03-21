@@ -81,7 +81,7 @@ There are many other tools available but this is the one we have chosen to cover
 
     6. On the headset you will need to allow the backup to proceed, this will be a prompt on the device screen. It will ask if you wish to set an optional password for the backup, you can choose to set one or not.
 
-    7. Next we will want to dump services data using the following command:
+    7. Next we will want to dump service data using the following command:
 
       ```bash
       ./adb.exe shell dumpsys > ./dumpsys.txt

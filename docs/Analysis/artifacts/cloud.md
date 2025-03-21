@@ -110,13 +110,13 @@ JSON Path `/device_information/online_status_history.json`
 
 HTML Location `Security and login information > Device information > Online status history`
 
-Contains details relating to the online status on the users devices. These entries contain the following information:
+Contains details relating to the online status of the user's devices. These entries contain the following information:
 
 - Last periodic status check (Timestamp)
 - Voice setting
-  - In my example it was listed as "Start", further investigation is needed to determine what this field represents.
+  - In my example, it was listed as "Start", further investigation is needed to determine what this field represents.
 - Sessions in VR
-  - In my example it was listed as "0" despite the device being used for VR sessions. Unsure as to why at this time.
+  - In my example, it was listed as "0" despite the device being used for VR sessions. Unsure as to why at this time.
 - Sharing auto sync preference (On/Off)
 - Serial number (String)
 
@@ -126,7 +126,7 @@ JSON Path `/device_information/vr_device_sync_data.json`
 
 HTML Location `Security and login information > Device information > VR device sync data`
 
-Contains information regarding the online sync status of the users VR devices. These entries contain the following information:
+Contains information regarding the online sync status of the user's VR devices. These entries contain the following information:
 
 - Device name (String)
 - Last sync time (Timestamp)
@@ -160,7 +160,7 @@ JSON Path `/security_and_login_information/location_history.json`
 
 HTML Location `Security and login information > Security and login information > Location history`
 
-Contains a history of locations what the user has connected to the Meta Account from. This could be via the headset or a PC/Mobile Phone. These entries contain the following information:
+Contains a history of locations that the user has connected to the Meta Account. This could be via the headset or a PC/Mobile Phone. These entries contain the following information:
 
 - Latitude and Longitude (Long/Lat)
 - First Seen (Timestamp)
@@ -198,7 +198,7 @@ JSON Path `/your_apps_and_content/apps.json`
 
 HTML Location `Apps and Websites off Meta accounts > Your apps and content > Apps`
 
-A list of all the applications the user has ever interacted with. It seems to contain a lot of entries that are not applications but instead brands and models of laptops, keyboard and other hardware. None of these entries related to any devices I used, my best guess is that they were adverts or product placement of some kind. The entries contain the following information:
+A list of all the applications the user has ever interacted with. It seems to contain a lot of entries that are not applications but instead brands and models of laptops, keyboards and other hardware. None of these entries related to any devices I used, my best guess is that they were adverts or product placement of some kind. The entries contain the following information:
 
 - Last Used (Timestamp)
 - Granted Time (Timestamp)
@@ -217,7 +217,7 @@ JSON Path `/your_apps_and_content/inbox/userid_xxxxx.json`
 
 HTML Location `Apps and Websites off Meta accounts > Your apps and content > Group chat threads`
 
-Contains a list of all chat threads that the user has been involved in. Each chat thread contains a list of messages that have been sent as well as the user who sent it. It contains many different formats of messages such as text, images, videos, links, invites, reactions, emojis and call starts/ends. Every message contains the sender name and timestamp. The other content varies between types of messages.
+Contains a list of all chat threads that the user has been involved in. Each chat thread contains a list of messages that have been sent as well as the user who sent it. It contains many different formats of messages such as text, images, videos, links, invites, reactions, emojis and call starts/ends. Every message contains the sender's name and timestamp. The other content varies between types of messages.
 
 ## All Notification Settings
 
@@ -235,13 +235,13 @@ HTML Locations:
 
 These settings lack any description or context in the HTML version, but the JSON version contains a bit information about the settings and what notifications are enabled or disabled, however a lot of options have no way of knowing what its related to.
 
-- App email notification settings contains settings for email notifications from Meta apps.
-- Apps notification preferences contains settings for notifications from apps on your device (headset).
-- Your notification preferences contains settings for notifications from Meta.
+- App email notification settings contain settings for email notifications from Meta apps.
+- Apps notification preferences contain settings for notifications from apps on your device (headset).
+- Your notification preferences contain settings for notifications from Meta.
 
 ## Privacy and Social Settings Reminders/Reviewed
 
-There are a few files that contain information how often you have reviewed your privacy and social settings. It also contains trackers for how many times you have been reminded to review your settings from either your follower count or just over time. These files can be found in the following locations:
+There are a few files that contain information on how often you have reviewed your privacy and social settings. It also contains trackers for how many times you have been reminded to review your settings from either your follower count or just over time. These files can be found in the following locations:
 
 JSON Locations:
 - `/your_settings_and_preferences/your_count_for_how_many_you_times_you’ve_entered_privacy_and_social_settings_review.json`

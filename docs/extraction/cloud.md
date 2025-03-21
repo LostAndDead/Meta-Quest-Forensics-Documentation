@@ -14,12 +14,12 @@ Cloud Export is a feature that allows you to download a copy of all your data fr
 ## How to download your data
 
 :::info
-It is important to note that in order to download your data you must log into the Meta account that you wish to download the data from. This will create a entry in the logs that will be included in the download. For this reason you should note the time and IP address you logged in from so you can identify this entry in the logs and exclude it from your analysis.
+It is important to note that to download your data you must log into the Meta account that you wish to download the data from. This will create am entry in the logs that will be included in the download. For this reason, you should note the time and IP address you logged in from so you can identify this entry in the logs and exclude it from your analysis.
 :::
 
 To download your data from the Meta Cloud using Cloud Export, follow these steps:
 
-1. Open your web browser and login to your Meta account on the [Meta website](https://auth.meta.com).
+1. Open your web browser and log in to your Meta account on the [Meta website](https://auth.meta.com).
 2. Navigate to the "[Your information and permissions](https://accountscenter.meta.com/info_and_permissions)" section of your account center.
 
 ![Meta information and permissions page](/img/docs/download_page.png)

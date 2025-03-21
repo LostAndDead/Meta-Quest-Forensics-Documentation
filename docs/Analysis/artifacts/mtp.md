@@ -12,11 +12,11 @@ When analysing data extracted from the Meta Quest 3 using MTP, you can expect to
 - Documents such as PDFs, Word documents, and text files.
 - Application OBB files.
 
-Application specific artifacts that can be extracted from the Meta Quest 3 can be found in the [Applications](/analysis/artifacts/applications) section.
+Application-specific artifacts that can be extracted from the Meta Quest 3 can be found in the [Applications](/analysis/artifacts/applications) section.
 
 ## Downloads
 
-The devices download folder can be found at `/Downloads`. This folder contains all the files that have been downloaded to the device.
+The device's download folder can be found at `/Downloads`. This folder contains all the files that have been downloaded to the device.
 
 ## Movies
 
@@ -26,7 +26,7 @@ In the case of the Meta Quest 3, this folder contains a `.thumbnails` folder whi
 
 ## Screenshots
 
-All screenshots taken on the device are stored in the `/Oculus/Screenshots` folder. The files name format is
+All screenshots taken on the device are stored in the `/Oculus/Screenshots` folder. The file name format is
 ```
 app.id-YYYYMMDD-HHMMSS.jpg
 ```
@@ -34,7 +34,7 @@ Where `app.id` is the ID of the application that was screenshot `YYYYMMDD` is th
 
 ## Recordings
 
-All recordings taken on the device are stored in the `/Oculus/VideoShots` folder. The files name format is
+All recordings taken on the device are stored in the `/Oculus/VideoShots` folder. The file name format is
 ```
 app.id-YYYYMMDD-HHMMSS-0.mp4
 ```

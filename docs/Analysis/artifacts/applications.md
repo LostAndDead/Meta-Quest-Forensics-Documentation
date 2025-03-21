@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Applications
-description: "Application specific artifacts that can be extracted from the Meta Quest 3."
+description: "Application-specific artifacts that can be extracted from the Meta Quest 3."
 hide_table_of_contents: true
 slug: /analysis/artifacts/applications
 ---
@@ -9,13 +9,13 @@ slug: /analysis/artifacts/applications
 <details>
     <summary>com.facebook.horizon</summary>
 
-    The Horizon app is the social hub for the Meta Quest 3. It allows users to connect with friends, join events, and discover new experiences. The app is  designed to be a safe and welcoming space for users to interact with each other and explore the Meta Quest 3 ecosystem.
+    The Horizon app is the social hub for the Meta Quest 3. It allows users to connect with friends, join events, and discover new experiences. The app is designed to be a safe and welcoming space for users to interact with each other and explore the Meta Quest 3 ecosystem.
 
     ## Source: [MTP](/extraction/mtp)
 
     ### User Settings
 
-    The users settings for the Horizon app can be found in the `/Android/Data/com.facebook.horizon/Horizon` directory. The file `settings-socialvr.xml` contains the user's settings for the app.
+    The user's settings for the Horizon app can be found in the `/Android/Data/com.facebook.horizon/Horizon` directory. The file `settings-socialvr.xml` contains the user's settings for the app.
 
     ### Cached Assets
 
@@ -29,7 +29,7 @@ slug: /analysis/artifacts/applications
 
     Only the `cache` directory contains files that can be opened and viewed. The other directories contain Unity asset files that require Unity to open.
 
-    These caches assets can be used to determine what worlds the user has visited and what assets they loaded. From my own analysis I was able to find assets from various worlds I had visited and assets from the Horizon app its self.
+    These cache assets can be used to determine what worlds the user has visited and what assets they loaded. From my own analysis, I was able to find assets from various worlds I had visited and assets from the Horizon app itself.
 
     ## Source: [Cloud](/extraction/cloud)
 
@@ -48,7 +48,7 @@ slug: /analysis/artifacts/applications
       - LastUpdated (String)
     - Progress (Array)
       - Value (String)
-      - Creaton Time (String)
+      - Creation Time (String)
       - Variable Name (String)
     
     The JSON version also contains media files that are associated with the worlds visited. This seems to just be the world thumbnail.
@@ -119,6 +119,6 @@ slug: /analysis/artifacts/applications
 
     ### Logs
 
-    Toybox stores logs of which demos the user has played in the `/Android/Data/com.meta.curio.toybox/files/` directory. The content of the logs is a lot of technical information that isn't particularly useful. The file name on the other hand contains the demo ran, the date and the time the demo was ran. An example file name would be `FirstEncounters_Logs_25-01-17_14-12-29`. This file name tells us that the user ran the First Encounters demo on the 17th of January 2025 at 14:12:29.
+    Toybox stores logs of which demos the user has played in the `/Android/Data/com.meta.curio.toybox/files/` directory. The content of the logs is a lot of technical information that isn't particularly useful. The file name on the other hand contains the demo that was run, the date and the time the demo was run. An example file name would be `FirstEncounters_Logs_25-01-17_14-12-29`. This file name tells us that the user ran the First Encounters demo on the 17th of January 2025 at 14:12:29.
 
 </details>
