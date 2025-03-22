@@ -106,6 +106,7 @@ There are many other tools available but this is the one we have chosen to cover
     5. Magnet AXIOM will scan for devices and prompt you to choose one from the list.
     
       If the device is not listed, you may need to authorize the connection on the device. Check the device screen for a prompt to allow USB debugging.
+      
       ![The device should appear something like this.](/img/docs/magnet_adb.png)
       <figcaption>*The device should appear something like this.*</figcaption>
       

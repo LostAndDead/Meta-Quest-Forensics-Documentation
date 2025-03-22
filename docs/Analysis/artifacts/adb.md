@@ -39,7 +39,7 @@ The `OVRRemoteService` file contains a load of information about connected devic
 
 ### Sensor Service
 
-The `sensorservice.txt` file contains a lot of information about the sensors on the device at the time of the dump, this includes a list of sensors, in my case there were 2 sensors listed, Double Tap and IMU. The Double Tap sensor can be assumed to be the sensor that trippers when you double-tap the side of the headset to switch between the passthrough and the home environment. The IMU sensor is the Inertial Measurement Unit, this is the sensor that tracks the  movement of the headset. It contains data from the accelerometer and gyroscope as well as the current calibration status of the sensors.
+The `sensorservice.txt` file contains a lot of information about the sensors on the device at the time of the dump, this includes a list of sensors, in my case there were 2 sensors listed, Double Tap and IMU. The Double Tap sensor can be assumed to be the sensor that triggers when you double-tap the side of the headset to switch between the passthrough and the home environment. The IMU sensor is the Inertial Measurement Unit, this is the sensor that tracks the  movement of the headset. It contains data from the accelerometer and gyroscope as well as the current calibration status of the sensors.
 
 In the future I will be looking to build a tool to process and visualise this data in a more user-friendly way, however, this is outside of my initial project scope.
 
