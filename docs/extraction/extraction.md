@@ -5,8 +5,17 @@ slug: /extraction/intro
 pagination_label: "Extraction"
 hide_table_of_contents: true
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 
-<img src="/img/undraw_data-extraction_a558.svg" width="300" />
+<ThemedImage
+  role="img"
+  width="300"
+  sources={{
+    light: useBaseUrl('/img/data-extraction_light.svg'),
+    dark: useBaseUrl('/img/data-extraction_dark.svg'),
+  }}
+/>
 # Extraction Introduction
 
 

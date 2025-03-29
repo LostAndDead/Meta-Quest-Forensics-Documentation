@@ -5,7 +5,17 @@ slug: /analysis/intro
 pagination_label: "Analysis Intro"
 hide_table_of_contents: true
 ---
-<img src="/img/undraw_private-data_7v0o.svg" width="300" />
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
+<ThemedImage
+  role="img"
+  width="300"
+  sources={{
+    light: useBaseUrl('/img/private-data_light.svg'),
+    dark: useBaseUrl('/img/private-data_dark.svg'),
+  }}
+/>
 # Analysis Introduction
 
 This is the introduction to the analysis section. Here you will find everything you need to know about analysing the extracted data.

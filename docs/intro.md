@@ -3,8 +3,17 @@ sidebar_position: 1
 title: Introduction
 description: "Introduction to the documentation"
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 
-<img src="/img/undraw_progress-indicator_c14b.svg" width="300" />
+<ThemedImage
+  role="img"
+  width="300"
+  sources={{
+    light: useBaseUrl('/img/begin_light.svg'),
+    dark: useBaseUrl('/img/begin_dark.svg'),
+  }}
+/>
 # Introduction and Guide
 
 :::info
