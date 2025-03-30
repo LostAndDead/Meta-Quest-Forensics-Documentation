@@ -105,7 +105,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.png',
     algolia: {
       // The application ID provided by Algolia
       appId: process.env.ALGOLIA_APP_ID,
