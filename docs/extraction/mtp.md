@@ -36,7 +36,7 @@ Once you have allowed access to the device, you can access the internal storage 
 ![The Meta Quest 3 shows as a storage device on the computer.](/img/docs/quest_on_pc.png)
 <figcaption>*The Meta Quest 3 shows as a storage device on the computer.*</figcaption>
 
-## Forensicly Collecting This Data
+## Forensically Collecting This Data
 
 As this guide is aimed at hobbyists as well as professionals, we will cover how to collect this data using 2 different methods. The first method will be using just the file explorer and the second method will be using a forensic tool often used in the industry called Magnet AXIOM[^3].
 
