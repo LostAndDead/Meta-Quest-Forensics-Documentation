@@ -55,14 +55,14 @@ There are many other tools available but this is the one we have chosen to cover
       ./adb.exe devices
       ```
 
-      If the device is connected and authorized, you should see it listed in the output. It should look something like this:
+      If the device is connected and authorised, you should see it listed in the output. It should look something like this:
   
       ```bash
       List of devices attached
       XXXXXXXXXXXXXXXX	device
       ```
 
-      If the device is not listed, you may need to authorize the connection on the device. Check the device screen for a prompt to allow USB debugging.
+      If the device is not listed, you may need to authorise the connection on the device. Check the device screen for a prompt to allow USB debugging.
 
       ![USB debugging confirmation prompt.](/img/docs/usb_debugging.jpg)
       <figcaption>*USB debugging confirmation prompt.*</figcaption>
@@ -105,7 +105,7 @@ There are many other tools available but this is the one we have chosen to cover
     4. Choose the ADB option and connect the Meta Quest 3 to your computer (If not connected already).
     5. Magnet AXIOM will scan for devices and prompt you to choose one from the list.
     
-      If the device is not listed, you may need to authorize the connection on the device. Check the device screen for a prompt to allow USB debugging.
+      If the device is not listed, you may need to authorise the connection on the device. Check the device screen for a prompt to allow USB debugging.
       
       ![The device should appear something like this.](/img/docs/magnet_adb.png)
       <figcaption>*The device should appear something like this.*</figcaption>
