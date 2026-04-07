@@ -22,4 +22,4 @@ If you would like to contribute to the documentation then you can do so by makin
 
 For how Docusaurus works please see the [Docusaurus documentation](https://docusaurus.io/docs).
 
-If you have any questions or need help with contributing then please feel free to reach out to me via email at [maintainer@quest-forensics.com](mailto:maintainer@quest-forensics.com) or on [GitHub](https://github.com/LostAndDead).
+If you have any questions or need help with contributing then please feel free to reach out to me via email at [maintainer@quest-forensics.tech](mailto:maintainer@quest-forensics.tech) or on [GitHub](https://github.com/LostAndDead).
