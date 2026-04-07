@@ -1,4 +1,4 @@
-> # A hosted version of this documentation is available at https://quest-forensics.com/
+> # A hosted version of this documentation is available at https://quest-forensics.tech/
 
 # Meta Quest 3 Forensics
 
